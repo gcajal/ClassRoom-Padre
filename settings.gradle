@@ -1,0 +1,8 @@
+rootProject.name = 'ProyectMaster'
+
+
+include ':ClassroomNotifierUI'
+include ':Historial-Aulas'
+
+project(':ClassroomNotifierUI').projectDir = new File('C:/Users/gabri/eclipse-workspace/ClassroomNotifierUI')
+project(':Historial-Aulas').projectDir = new File('C:/Users/gabri/source/repos/Historial-Aulas')
